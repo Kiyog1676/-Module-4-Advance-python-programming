@@ -1,0 +1,5 @@
+f=open("sample3.txt","r")
+data=f.read()
+print(data)
+maindata=data.split()
+print(len(maindata))
